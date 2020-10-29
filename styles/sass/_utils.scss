@@ -17,11 +17,8 @@ header h1 {
     font-size: 80px;
 }
 
-@mixin fontSpecs($size, $height, $space:1px, $font:$roboto, $weight:bold, $color:$black) {
-    font-family: $font;
+@mixin fontSpecs($size, $weight, $font:roboto) {
     font-size: $size;
     font-weight: $weight;
-    color: $color;
-    line-height: $height;
-    letter-spacing: $space;
-};
+    font-family: $font;
+}
