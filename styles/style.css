@@ -235,6 +235,15 @@ html {
   overflow: hidden;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+  font-family: 'Lora', serif;
+  font-size: 80px;
+}
+
 /* GLOBAL STYLES */
 * {
   padding: 0;
@@ -278,4 +287,19 @@ header {
 
 header input {
   visibility: hidden;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f6ab23;
+}
+
+header li {
+  padding: 10px;
+  font-size: 2rem;
 }

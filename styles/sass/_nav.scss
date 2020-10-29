@@ -1,0 +1,10 @@
+header ul {
+    display: flex;
+    justify-content: center;
+    background-color: $orange;
+}
+
+header li {
+    padding: 10px;
+    font-size: 2rem;
+}
