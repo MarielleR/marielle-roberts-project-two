@@ -1,0 +1,36 @@
+header {
+    height: 70vh;
+    margin-bottom: 75px;
+}
+
+header .wrapper {
+    background-color: $orange;
+}
+
+.header-flex {
+    display: flex;
+    margin-top: 20px;
+    // padding-left: 60px;
+    // padding-right: 60px;
+}
+
+.semi-circle {
+    position: relative;
+    left: 225px;
+    top: 90px;
+} 
+
+.main-title {
+    position: relative;
+    left: 100px;
+    top: 90px;
+}
+
+.sophie-img {
+    width: 30%;
+    position: relative;
+    left: 165px;
+    top: 40px;
+    box-shadow: 15px 15px 1px white;
+    z-index: 3;
+}

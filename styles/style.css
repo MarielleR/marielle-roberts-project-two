@@ -295,21 +295,42 @@ header input {
   margin: 0 auto;
 }
 
+header {
+  height: 70vh;
+  margin-bottom: 75px;
+}
+
 header .wrapper {
   background-color: #f6ab23;
-  height: 70vh;
 }
 
 .header-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 20px;
+}
+
+.semi-circle {
+  position: relative;
+  left: 225px;
+  top: 90px;
 }
 
 .main-title {
-  font-size: 10rem;
-  font-weight: 700;
-  font-family: Lora;
+  position: relative;
+  left: 100px;
+  top: 90px;
+}
+
+.sophie-img {
+  width: 30%;
+  position: relative;
+  left: 165px;
+  top: 40px;
+  -webkit-box-shadow: 15px 15px 1px white;
+          box-shadow: 15px 15px 1px white;
+  z-index: 3;
 }
 
 header ul {
@@ -335,6 +356,37 @@ header li {
   margin-top: 30px;
   position: relative;
   bottom: 17px;
+}
+
+.who-is-sophie-container {
+  background-color: #f0efed;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 90px;
+}
+
+.who-is-sophie-container h2 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: roboto;
+}
+
+.who-is-sophie-container p {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: roboto;
+  line-height: 32px;
+  padding-bottom: 40px;
+}
+
+#about a {
+  background-color: #05afc1;
+  padding: 10px 25px 10px 25px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: roboto;
 }
 
 footer {
