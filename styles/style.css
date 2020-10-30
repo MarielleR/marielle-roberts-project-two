@@ -241,7 +241,7 @@ body {
 
 header h1 {
   font-family: 'Lora', serif;
-  font-size: 80px;
+  font-size: 120px;
 }
 
 /* GLOBAL STYLES */
@@ -287,6 +287,29 @@ header {
 
 header input {
   visibility: hidden;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header .wrapper {
+  background-color: #f6ab23;
+  height: 70vh;
+}
+
+.header-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-title {
+  font-size: 10rem;
+  font-weight: 700;
+  font-family: Lora;
 }
 
 header ul {
