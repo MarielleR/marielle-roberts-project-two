@@ -443,7 +443,7 @@ header li {
   display: -ms-flexbox;
   display: flex;
   padding-top: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .travel-container h3 {
@@ -483,6 +483,55 @@ header li {
   font-size: 2rem;
   font-weight: 700;
   font-family: roboto;
+}
+
+.icon-menu {
+  background-color: #f0efed;
+  margin-top: 0;
+  padding: 120px 80px 80px 60px;
+}
+
+.icon-menu .ul-icon {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  -ms-grid-rows: 2fr 2fr;
+      grid-template-rows: 2fr 2fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.icon-menu .yellow-round {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  background-color: #f6ab23;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-menu i {
+  font-size: 3rem;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.icon-menu h3 {
+  padding-bottom: 20px;
+  padding-left: 65px;
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: roboto;
+}
+
+.icon-menu p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: roboto;
+  padding: 25px 0px 50px 100px;
 }
 
 footer {

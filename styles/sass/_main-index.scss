@@ -66,7 +66,7 @@
 .travel-container {
     display: flex;
     padding-top: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
         & h3 {
             padding-bottom: 20px;
             @include fontSpecs (3.2rem, 700);
@@ -98,3 +98,44 @@
     padding: 10px 25px 10px 25px; 
     @include fontSpecs (2rem, 700)
 }
+
+// Icon Menu Section
+.icon-menu {
+    background-color: $white;
+    margin-top: 0;
+    padding: 120px 80px 80px 60px;
+        & .ul-icon {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            grid-template-rows: 2fr 2fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px
+        }
+            & .yellow-round {
+                border-radius: 50%;
+                width: 5rem;
+                height: 5rem;
+                background-color: $orange;
+                display: flex;
+            }
+}
+
+.icon-menu i {
+    font-size: 3rem;
+    position: relative;
+    top: 10px;
+    left:10px;
+}
+
+.icon-menu h3 {
+    padding-bottom: 20px;
+    padding-left: 65px;
+    @include fontSpecs (3.2rem, 700);
+}
+
+.icon-menu p {
+    @include fontSpecs (1.8rem, 400);
+    padding: 25px 0px 50px 100px; 
+}
+
+
