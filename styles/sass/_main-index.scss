@@ -174,5 +174,14 @@
 }
 
 //Image Row Splash Section
+.img-trio {
+    display: flex;
+    padding: 50px;
+    & .img-tile-1,
+    .img-tile-2 {
+        padding-right: 35px;
+    }
+}
+
 
 
