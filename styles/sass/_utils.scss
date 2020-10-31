@@ -17,6 +17,10 @@ header h1 {
     font-size: 120px;
 }
 
+strong {
+    color: $dark-grey-blue;
+}
+
 @mixin fontSpecs($size, $weight, $font:roboto) {
     font-size: $size;
     font-weight: $weight;

@@ -244,6 +244,10 @@ header h1 {
   font-size: 120px;
 }
 
+strong {
+  color: #285e64;
+}
+
 /* GLOBAL STYLES */
 * {
   padding: 0;
@@ -596,19 +600,70 @@ header li {
   padding: 0;
   display: inline-block;
   position: absolute;
-  top: 350px;
-  left: 190px;
+  top: 400px;
+  left: 170px;
   text-transform: uppercase;
   margin-bottom: 0;
 }
 
-.blog-container-1 {
+.main-blog {
   background-color: #f0efed;
+}
+
+.blog-container-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 0;
-  padding-top: 90px;
+  padding-top: 150px;
+}
+
+.about-sophie-blog {
+  background-color: white;
+  padding: 30px 30px 20px 30px;
+  margin-right: 40px;
+  width: 145%;
+  height: 55%;
+}
+
+.about-sophie-blog h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: roboto;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.about-sophie-blog p {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 10px;
+}
+
+.why-blog {
+  background-color: white;
+  padding: 30px 30px 25px 30px;
+  border-bottom: 4px solid #f6ab23;
+}
+
+.why-blog h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: roboto;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.why-blog .blogger-sub-p {
+  padding-bottom: 15px;
+}
+
+.why-blog p {
+  padding-bottom: 12px;
 }
 
 footer {
