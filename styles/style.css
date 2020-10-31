@@ -666,6 +666,36 @@ header li {
   padding-bottom: 12px;
 }
 
+.recent-posts-blog {
+  background-color: white;
+  padding: 30px 40px 25px 30px;
+  width: 22%;
+  margin-right: 40px;
+}
+
+.recent-posts-blog h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: roboto;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 15px;
+}
+
+.recent-posts-blog li {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 10px;
+  list-style: disc;
+  margin-left: 25px;
+  color: #f6ab23;
+}
+
+li span {
+  color: black;
+}
+
 footer {
   background-color: #2c2c2c;
   color: #f0efed;

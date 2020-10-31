@@ -61,4 +61,28 @@
 }
 
 //Recent Posts Section
+.recent-posts-blog {
+    background-color: white;
+    padding: 30px 40px 25px 30px;
+    width: 22%;
+    margin-right: 40px;
+        & h3 {
+            @include fontSpecs (2.4rem, 700);
+            font-family: 'Roboto', sans-serif;
+            padding-bottom: 15px;
+        }
+            & li {
+                @include fontSpecs (1.6rem, 400, 'Roboto');
+                font-family: 'Roboto', sans-serif;
+                padding-bottom: 10px;
+                list-style: disc;
+                margin-left: 25px;
+                color: $orange;
+            }
+}
+
+li span {
+    color: black;
+}
+
 
