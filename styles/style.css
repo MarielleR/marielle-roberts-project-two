@@ -362,13 +362,13 @@ header li {
   background-color: #f0efed;
   padding-right: 100px;
   padding-left: 100px;
-  padding-bottom: 90px;
+  padding-bottom: 140px;
 }
 
 .who-is-sophie-container h2 {
   padding-top: 80px;
   padding-bottom: 20px;
-  font-size: 3.2rem;
+  font-size: 4.2rem;
   font-weight: 700;
   font-family: roboto;
 }
@@ -378,13 +378,109 @@ header li {
   font-weight: 400;
   font-family: roboto;
   line-height: 32px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 #about a {
   background-color: #05afc1;
   padding: 10px 25px 10px 25px;
-  font-size: 1.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: roboto;
+}
+
+.favourite-things-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.favourite-things-container h3 {
+  padding-bottom: 20px;
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: roboto;
+}
+
+.favourite-things-container p {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: roboto;
+  line-height: 32px;
+  padding-bottom: 40px;
+}
+
+.doggo-img {
+  width: 100%;
+  position: relative;
+  bottom: 110px;
+  left: 60px;
+  -webkit-box-shadow: -20px 15px #a82706, -60px 15px #a82706;
+          box-shadow: -20px 15px #a82706, -60px 15px #a82706;
+}
+
+.doggo-img img {
+  height: 35vh;
+}
+
+.fav-things {
+  margin-left: 120px;
+  padding-right: 100px;
+}
+
+.favourite-things-container a {
+  background-color: #05afc1;
+  padding: 10px 25px 10px 25px;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: roboto;
+}
+
+.travel-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 70px;
+  margin-bottom: 50px;
+}
+
+.travel-container h3 {
+  padding-bottom: 20px;
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: roboto;
+}
+
+.travel-container p {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: roboto;
+  line-height: 32px;
+  padding-bottom: 40px;
+}
+
+.travel-text {
+  width: 45%;
+  text-align: right;
+  margin-right: 50px;
+  padding-left: 100px;
+}
+
+.travel-img img {
+  height: 50vh;
+  width: 85%;
+  position: relative;
+  top: 20px;
+  -webkit-box-shadow: 25px 15px #f6ab23, 99px 15px #f6ab23;
+          box-shadow: 25px 15px #f6ab23, 99px 15px #f6ab23;
+}
+
+.travel-container a {
+  background-color: #05afc1;
+  padding: 10px 25px 10px 25px;
+  font-size: 2rem;
   font-weight: 700;
   font-family: roboto;
 }

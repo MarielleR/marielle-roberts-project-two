@@ -1,23 +1,100 @@
+//"Who is Sophie?" Section
 .who-is-sophie-container {
     background-color: $white;
     padding-right: 100px;
     padding-left: 100px;
-    padding-bottom: 90px;
-    & h2 {
-        padding-top: 80px;
-        padding-bottom: 20px;
-        @include fontSpecs (3.2rem, 700);
-    }
-        & p {
-            @include fontSpecs (2rem, 400);
-            line-height: 32px;
-            padding-bottom: 40px;
+    padding-bottom: 140px;
+        & h2 {
+            padding-top: 80px;
+            padding-bottom: 20px;
+            @include fontSpecs (4.2rem, 700);
         }
+            & p {
+                @include fontSpecs (2rem, 400);
+                line-height: 32px;
+                padding-bottom: 60px;
+            }
 }
 
 #about a {
     background-color: $cyan;
     padding: 10px 25px 10px 25px; 
-    @include fontSpecs (1.4rem, 700)
-    
+    @include fontSpecs (2rem, 700)
+}
+
+//"Sophie's Favourite Things" Section
+.favourite-things-container {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 50px;
+        & h3 {
+            padding-bottom: 20px;
+            @include fontSpecs (3.2rem, 700);
+        }
+            & p {
+                @include fontSpecs (2rem, 400);
+                line-height: 32px;
+                padding-bottom: 40px;
+            }
+}
+
+.doggo-img {
+    width: 100%;
+    position: relative;
+    bottom: 110px;
+    left: 60px;
+    box-shadow: -20px 15px $rust-red, -60px 15px $rust-red;
+        img {
+            height: 35vh;
+        }
+}
+
+
+
+.fav-things {
+    margin-left: 120px;
+    padding-right: 100px;
+}
+
+.favourite-things-container a {
+    background-color: $cyan;
+    padding: 10px 25px 10px 25px; 
+    @include fontSpecs (2rem, 700)
+}
+
+//"Where's She's Travelled" Section
+.travel-container {
+    display: flex;
+    padding-top: 70px;
+    margin-bottom: 50px;
+        & h3 {
+            padding-bottom: 20px;
+            @include fontSpecs (3.2rem, 700);
+        }
+            & p {
+                @include fontSpecs (2rem, 400);
+                line-height: 32px;
+                padding-bottom: 40px;
+            }
+}
+
+.travel-text {
+    width: 45%;
+    text-align: right;
+    margin-right: 50px;
+    padding-left: 100px;
+}
+
+.travel-img img{
+    height: 50vh;
+    width: 85%;
+    position: relative;
+    top: 20px;
+    box-shadow: 25px 15px $orange, 99px 15px $orange;
+}
+
+.travel-container a {
+    background-color: $cyan;
+    padding: 10px 25px 10px 25px; 
+    @include fontSpecs (2rem, 700)
 }
