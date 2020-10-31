@@ -295,12 +295,8 @@ header input {
   margin: 0 auto;
 }
 
-header {
-  height: 70vh;
-  margin-bottom: 75px;
-}
-
-header .wrapper {
+.header-index {
+  height: 80vh;
   background-color: #f6ab23;
 }
 
@@ -589,6 +585,30 @@ header li {
 .img-trio .img-tile-1,
 .img-trio .img-tile-2 {
   padding-right: 35px;
+}
+
+.sophie-stripes {
+  position: relative;
+}
+
+.blog-title h1 {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+  left: 190px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.blog-container-1 {
+  background-color: #f0efed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0;
+  padding-top: 90px;
 }
 
 footer {
