@@ -2,7 +2,7 @@
 @media (max-width: 940px){
     .fa-bars {
         font-size: 3rem;
-        color: teal;
+        color: $cyan;
         font-weight: 700;
         text-align: left;
         padding-left: 50px;
@@ -97,6 +97,7 @@
                 line-height: 32px;
                 padding-bottom: 40px;
             }
+        }
 
     .fav-things {
         margin-left: 85px;
@@ -104,12 +105,61 @@
             & h3 {
                 @include fontSpecs (2.4rem, 700);
             }
-        
+    }
+//Where's She's Travelled
+    .travel-container {
+        flex-direction: column-reverse;
     }
 
-    //Where's She's Travelled
-    #travelled {
+    .travel-text {
+        width: 100%;
+        text-align: left;
+        padding-left: 0px;
+        padding-top: 100px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+    }
+
+    .travel-img img {
+            box-shadow: 25px 15px $orange, 120px 15px $orange;
+    }
+
+//Icon Menu 
+//attempted to stack them in grid, but couldn't figure it out!
+
+//Sophie's Journey
+    .journey-container {
         display: flex;
         flex-direction: column;
+        padding-left: 50px;
+            & .journey-img img {
+                width: 50%;
+                margin-left: 135px;
+            }
+                & .journey-text {
+                    width: 100%;
+                    padding-left: 0;
+                    margin-left: 0;
+                    padding-top: 60px;
+                }
     }
+}
+
+@media (max-width: 768px) {
+    .ul-icon {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .li-photos h3 {
+        @include fontSpecs (2rem, 700);
+        padding-right: 3px;
+        padding-left: 30px;
+    }
+    
+    .li-photos p {
+        display: none;
+    }
+
+
+
 }

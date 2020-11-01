@@ -889,7 +889,7 @@ footer {
 @media (max-width: 940px) {
   .fa-bars {
     font-size: 3rem;
-    color: teal;
+    color: #05afc1;
     font-weight: 700;
     text-align: left;
     padding-left: 50px;
@@ -987,16 +987,34 @@ footer {
     line-height: 32px;
     padding-bottom: 40px;
   }
-  .favourite-things-container .fav-things {
+  .fav-things {
     margin-left: 85px;
     width: 100%;
   }
-  .favourite-things-container .fav-things h3 {
+  .fav-things h3 {
     font-size: 2.4rem;
     font-weight: 700;
     font-family: roboto;
   }
-  .favourite-things-container .travel-container {
+  .travel-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .travel-text {
+    width: 100%;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+  }
+  .travel-img img {
+    -webkit-box-shadow: 25px 15px #f6ab23, 120px 15px #f6ab23;
+            box-shadow: 25px 15px #f6ab23, 120px 15px #f6ab23;
+  }
+  .journey-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1004,25 +1022,33 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-left: 50px;
   }
-  .favourite-things-container .travel-text h3 {
-    color: teal;
+  .journey-container .journey-img img {
+    width: 50%;
+    margin-left: 135px;
+  }
+  .journey-container .journey-text {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 60px;
   }
 }
 
-@media (max-width: 940px) and (max-width: 768px) {
-  .header-flex {
-    margin: 0;
-    z-index: 33;
-    width: 100%;
-    max-width: 100%;
-    position: relative;
+@media (max-width: 768px) {
+  .ul-icon {
+    padding-right: 30px;
+    padding-left: 30px;
   }
-  .main-title {
-    padding: 0;
-    font-size: 4rem;
+  .li-photos h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: roboto;
+    padding-right: 3px;
+    padding-left: 30px;
   }
-  .semi-circle img {
-    min-width: 80%;
+  .li-photos p {
+    display: none;
   }
 }
