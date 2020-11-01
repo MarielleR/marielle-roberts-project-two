@@ -1052,3 +1052,111 @@ footer {
     display: none;
   }
 }
+
+@media (max-width: 940px) {
+  .sophie-stripes {
+    padding-top: 20px;
+  }
+  .blog-title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: roboto;
+    position: relative;
+    bottom: 450px;
+    right: 150px;
+  }
+  .blog-container-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-sophie-blog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 0px;
+    padding-right: 0;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    width: 75%;
+  }
+  .about-sophie-blog h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: roboto;
+  }
+  .about-sophie-blog p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: roboto;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .about-sophie-blog img {
+    display: none;
+  }
+  .comment-form {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .recent-posts-blog {
+    bottom: 0;
+    top: 45px;
+  }
+  .jeremy-julia {
+    bottom: 335px;
+    margin-left: 200px;
+  }
+  .jeremy-julia strong {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: roboto;
+  }
+  .jeremy-julia p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: roboto;
+  }
+  .comment-form {
+    bottom: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .why-blog p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: roboto;
+  }
+  .recent-posts-blog {
+    width: 30%;
+  }
+  .recent-posts-blog h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: roboto;
+  }
+  li span {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: roboto;
+    margin-left: 0;
+    padding: 0;
+    width: 90%;
+  }
+  .jeremy-julia {
+    bottom: 255px;
+  }
+  .comment-form {
+    bottom: 0;
+    padding-bottom: 50px;
+  }
+}

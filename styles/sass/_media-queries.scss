@@ -1,3 +1,5 @@
+//Media Queries for index.html:
+
 // Portrait tablet and small desktops
 @media (max-width: 940px){
     .fa-bars {
@@ -159,7 +161,106 @@
     .li-photos p {
         display: none;
     }
+}
 
 
 
+
+//Media Queries for: blog.html 
+
+@media (max-width:940px) {
+    //Header Styles
+    .sophie-stripes {
+        padding-top: 20px;
+    }
+
+    .blog-title {
+        @include fontSpecs (2rem, 700);
+        position: relative;
+        bottom: 450px;
+        right: 150px;
+    }
+    //Blog Container 
+    .blog-container-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-sophie-blog {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        padding-right: 0;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        width: 75%;
+            & h3 {
+                @include fontSpecs (2rem, 700);
+            }
+                & p {
+                    @include fontSpecs (1.3rem, 700);
+                    padding-right: 0;
+                    margin-right: 0;
+                }
+            & img {
+                display: none;
+            }
+    }
+
+    .comment-form {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .recent-posts-blog {
+        bottom: 0;
+        top: 45px;
+    }
+
+    .jeremy-julia {
+        bottom: 335px;
+        margin-left: 200px;
+            & strong {
+                @include fontSpecs (1.8rem, 700);
+            }
+                & p {
+                    @include fontSpecs (1.2rem, 400);
+                }
+    }
+
+    .comment-form {
+        bottom: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .why-blog p {
+        @include fontSpecs (1.8rem, 400);
+    }
+
+    .recent-posts-blog {
+        width: 30%;
+    }
+    .recent-posts-blog h3 {
+        @include fontSpecs (1.8rem, 400);
+    }
+        & li span {
+            @include fontSpecs (1.2rem, 400);
+            margin-left: 0;
+            padding: 0;
+            width: 90%;
+        }
+
+    .jeremy-julia {
+        bottom: 255px;
+    }
+
+    .comment-form {
+        bottom: 0;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    
 }
