@@ -305,3 +305,41 @@
         @include fontSpecs (1.2rem, 400);
     }
 }
+
+//Media Queries for: contact.html
+@media (max-width: 940px) {
+    .upsidedown-sophie {
+        margin-top: 15px;
+    }
+
+    .in-touch-title {
+        position: relative;
+        top: -600px;
+        left: 60px;
+        width: 100%;
+            & h1 {
+                @include fontSpecs (4rem, 400, 'Lora');
+            }
+    }
+
+    .main-contact {
+        padding-top: 0px;
+    }
+
+    .form-flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .comment-form-2 {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 40px;
+        padding-right: 20px;
+    }
+}

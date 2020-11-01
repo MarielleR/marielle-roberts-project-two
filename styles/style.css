@@ -814,7 +814,7 @@ form button {
   padding: 0;
   display: inline-block;
   position: absolute;
-  top: 400px;
+  top: 480px;
   left: 150px;
   margin-bottom: 0;
   font-size: 7.8rem;
@@ -1205,5 +1205,44 @@ footer {
     font-size: 1.2rem;
     font-weight: 400;
     font-family: roboto;
+  }
+}
+
+@media (max-width: 940px) {
+  .upsidedown-sophie {
+    margin-top: 15px;
+  }
+  .in-touch-title {
+    position: relative;
+    top: -600px;
+    left: 60px;
+    width: 100%;
+  }
+  .in-touch-title h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: "Lora";
+  }
+  .main-contact {
+    padding-top: 0px;
+  }
+  .form-flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info-box {
+    width: 100%;
+    text-align: center;
+  }
+  .comment-form-2 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 40px;
+    padding-right: 20px;
   }
 }
