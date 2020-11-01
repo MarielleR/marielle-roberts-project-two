@@ -10,10 +10,16 @@ header li {
     padding-top: 30px;
 }
 
+
+
 .sophie-nav {
     @include fontSpecs (4.5rem, 700, Lora);
     margin-top: 30px;
     position: relative;
     bottom: 17px;
+}
+
+.fa-bars {
+    visibility: hidden;
 }
 

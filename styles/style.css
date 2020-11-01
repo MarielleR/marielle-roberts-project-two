@@ -269,6 +269,7 @@ a {
 
 img {
   width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -297,6 +298,16 @@ header input {
   max-width: 1280px;
   width: 90%;
   margin: 0 auto;
+}
+
+a:hover,
+a:focus {
+  background-color: #4f4f4f;
+}
+
+li:hover,
+li:focus {
+  color: #05afc1;
 }
 
 .header-index {
@@ -356,6 +367,10 @@ header li {
   margin-top: 30px;
   position: relative;
   bottom: 17px;
+}
+
+.fa-bars {
+  visibility: hidden;
 }
 
 .who-is-sophie-container {
@@ -869,4 +884,101 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px;
+}
+
+@media (max-width: 940px) {
+  .fa-bars {
+    font-size: 3rem;
+    color: teal;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    visibility: visible;
+  }
+  header nav {
+    display: none;
+  }
+  input:checked + nav {
+    display: block;
+  }
+  header input {
+    position: absolute;
+    right: -100000px;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    background-color: #f0efed;
+    display: inline-block;
+    padding: 10px;
+  }
+  nav ul li {
+    padding: 5px;
+  }
+  nav li a {
+    font-size: 1.5rem;
+  }
+  li .sophie-nav {
+    font-size: 1.7rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 5px;
+  }
+  header nav {
+    position: relative;
+    top: 15px;
+    left: 45px;
+  }
+  .sophie-img {
+    display: none;
+  }
+  .header-flex {
+    padding-right: 200px;
+    z-index: 33;
+  }
+  .header-flex h1 {
+    padding: 0;
+    font-size: 8rem;
+  }
+  .header-flex .semi-circle {
+    padding: 0;
+    font-size: 2rem;
+    position: relative;
+  }
+  .favourite-things-container {
+    width: 100%;
+  }
+  .doggo-img img {
+    -webkit-box-shadow: 0px transparent;
+            box-shadow: 0px transparent;
+    height: 100%;
+    width: 120%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-flex {
+    margin: 0;
+    z-index: 33;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+  }
+  .main-title {
+    padding: 0;
+    font-size: 4rem;
+  }
+  .semi-circle img {
+    min-width: 80%;
+  }
 }

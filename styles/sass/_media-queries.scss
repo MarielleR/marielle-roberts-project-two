@@ -1,23 +1,123 @@
 // Portrait tablet and small desktops
 @media (max-width: 940px){
+    .fa-bars {
+        font-size: 3rem;
+        color: teal;
+        font-weight: 700;
+        text-align: left;
+        padding-left: 50px;
+        padding-top: 50px;
+        visibility: visible;
+    }
 
+    header nav {
+        display: none;
+    }
+
+    input:checked + nav {
+        display: block;
+    }
+
+    header input {
+        position: absolute;
+        right: -100000px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        background-color: $white;
+        display: inline-block;
+        padding: 10px;
+            & li {
+                padding: 5px;
+            }
+    }
+
+    nav li a {
+        font-size: 1.5rem;
+    }
+
+    li .sophie-nav {
+        font-size: 1.7rem;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 5px;
+    }
+
+    header nav {
+        position: relative;
+        top: 15px;
+        left: 45px;
+    }
+
+    .sophie-img {
+        display: none;
+    }
+
+    .header-flex {
+        // margin-left: 10rem;
+        // margin-right: 10rem;
+        padding-right: 200px;
+        z-index: 33;
+            & h1 {
+                padding: 0;
+                font-size: 8rem;
+            }
+                & .semi-circle {
+                    padding: 0;
+                    font-size: 2rem;
+                    position: relative;
+                }
+    }
+//Sophie's Favourite Things
+
+    .favourite-things-container {
+        width: 100%;
+    }
+
+    .doggo-img img{
+        box-shadow: 0px transparent;
+        height: 100%;
+        width: 120%;
+    }
+
+    .favourite-things-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+        & h3 {
+            padding-bottom: 20px;
+            @include fontSpecs (2rem, 700);
+        }
+            & p {
+                @include fontSpecs (2rem, 400);
+                line-height: 32px;
+                padding-bottom: 40px;
+            }
 }
-
-
-
-
-
-
 
 
 
 
 //Landscape phone to portrait tablet
-@media (max-width: 68px) {
+@media (max-width: 768px) {
+    .header-flex {
+        margin: 0;
+        z-index: 33;
+        width: 100%;
+        max-width: 100%;
+        position: relative;
 
-}
+    }
 
-//Landscape phone and down
-@media (max-width: 480px) {
+    .main-title {
+        padding: 0;
+        font-size: 4rem;
+    }
 
+    .semi-circle img {
+        min-width: 80%;
+    }
 }
