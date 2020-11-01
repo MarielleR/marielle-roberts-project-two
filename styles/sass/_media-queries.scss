@@ -262,5 +262,46 @@
 }
 
 @media (max-width: 480px) {
-    
+    #blog {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .about-sophie-blog {
+        padding-top: 0;
+        margin-top: 40px;
+    }
+
+    .blog-title h1 {
+        @include fontSpecs (5rem, 700, 'Lora');
+        position: relative;
+        top: 420px;
+        right: 150px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .blog-container-1 {
+        padding-top: 0;
+    }
+
+    .recent-posts-blog {
+        width: 100%;
+    }
+
+    .jeremy-julia {
+        top: 100px;
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 150px;
+    }
+
+    .form-row-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p {
+        @include fontSpecs (1.2rem, 400);
+    }
 }
