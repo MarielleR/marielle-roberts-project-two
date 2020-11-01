@@ -959,14 +959,58 @@ footer {
     width: 100%;
   }
   .doggo-img img {
-    -webkit-box-shadow: 0px transparent;
-            box-shadow: 0px transparent;
+    width: 90%;
     height: 100%;
-    width: 120%;
+    margin-right: 0;
+  }
+  .favourite-things-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .favourite-things-container h3 {
+    padding-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: roboto;
+  }
+  .favourite-things-container p {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: roboto;
+    line-height: 32px;
+    padding-bottom: 40px;
+  }
+  .favourite-things-container .fav-things {
+    margin-left: 85px;
+    width: 100%;
+  }
+  .favourite-things-container .fav-things h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: roboto;
+  }
+  .favourite-things-container .travel-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .favourite-things-container .travel-text h3 {
+    color: teal;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 940px) and (max-width: 768px) {
   .header-flex {
     margin: 0;
     z-index: 33;
