@@ -31,13 +31,11 @@
     height: 55%;
         & h3 {
             @include fontSpecs (2.4rem, 700);
-            font-family: 'Roboto', sans-serif;
             padding-top: 15px;
             padding-bottom: 15px;
         }
             & p {
-                @include fontSpecs (2rem, 400, 'Roboto');
-                font-family: 'Roboto', sans-serif;
+                @include fontSpecs (2rem, 400);
                 padding-bottom: 10px;
             }
 }
@@ -48,7 +46,6 @@
     border-bottom: 4px solid $orange;
         & h3 {
             @include fontSpecs (3.2rem, 700);
-            font-family: 'Roboto', sans-serif;
             padding-top: 15px;
             padding-bottom: 15px;
         }
@@ -63,17 +60,17 @@
 //Recent Posts Section
 .recent-posts-blog {
     background-color: white;
-    padding: 30px 40px 25px 30px;
-    width: 22%;
+    padding: 30px 35px 25px 30px;
+    width: 21%;
     margin-right: 40px;
+    position: relative;
+    bottom: 490px;
         & h3 {
             @include fontSpecs (2.4rem, 700);
-            font-family: 'Roboto', sans-serif;
             padding-bottom: 15px;
         }
             & li {
-                @include fontSpecs (1.6rem, 400, 'Roboto');
-                font-family: 'Roboto', sans-serif;
+                @include fontSpecs (1.6rem, 400);
                 padding-bottom: 10px;
                 list-style: disc;
                 margin-left: 25px;
@@ -84,5 +81,87 @@
 li span {
     color: black;
 }
+
+//Jeremy-Julia Section
+
+.jeremy-julia {
+    margin-left: 330px;
+    margin-right: 20px;
+    border-bottom: 4px solid $orange;
+    position: relative;
+    bottom: 190px;
+}
+
+.jeremy {
+    margin-bottom: 30px;
+}
+
+.jeremy,
+.julia {
+    background-color: white;
+    padding: 30px 45px;
+    display: flex;
+        & strong {
+            @include fontSpecs (2.4rem, 700);
+        }
+            & p {
+                @include fontSpecs (2.1rem, 400);
+            }
+}
+
+.j-img {
+    width: 38%;
+    padding-right: 35px;
+}
+
+.julia-img {
+    width: 29%;
+    padding-right: 35px;
+}
+
+//Form Section
+.form-row-1 {
+    display: flex;
+}
+
+.form-row-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 73%;
+    margin-left: 325px;
+    margin-top: 0;
+    position: relative;
+    bottom: 100px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    @include fontSpecs (1.6rem, 400)
+}
+
+#name {
+    margin-right: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: $cyan;
+    padding: 10px 45px 10px 45px; 
+    @include fontSpecs (2rem, 700)
+}
+
+
+
 
 

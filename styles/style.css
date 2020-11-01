@@ -630,7 +630,6 @@ header li {
   font-size: 2.4rem;
   font-weight: 700;
   font-family: roboto;
-  font-family: 'Roboto', sans-serif;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -638,8 +637,7 @@ header li {
 .about-sophie-blog p {
   font-size: 2rem;
   font-weight: 400;
-  font-family: "Roboto";
-  font-family: 'Roboto', sans-serif;
+  font-family: roboto;
   padding-bottom: 10px;
 }
 
@@ -653,7 +651,6 @@ header li {
   font-size: 3.2rem;
   font-weight: 700;
   font-family: roboto;
-  font-family: 'Roboto', sans-serif;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -668,24 +665,24 @@ header li {
 
 .recent-posts-blog {
   background-color: white;
-  padding: 30px 40px 25px 30px;
-  width: 22%;
+  padding: 30px 35px 25px 30px;
+  width: 21%;
   margin-right: 40px;
+  position: relative;
+  bottom: 490px;
 }
 
 .recent-posts-blog h3 {
   font-size: 2.4rem;
   font-weight: 700;
   font-family: roboto;
-  font-family: 'Roboto', sans-serif;
   padding-bottom: 15px;
 }
 
 .recent-posts-blog li {
   font-size: 1.6rem;
   font-weight: 400;
-  font-family: "Roboto";
-  font-family: 'Roboto', sans-serif;
+  font-family: roboto;
   padding-bottom: 10px;
   list-style: disc;
   margin-left: 25px;
@@ -694,6 +691,103 @@ header li {
 
 li span {
   color: black;
+}
+
+.jeremy-julia {
+  margin-left: 330px;
+  margin-right: 20px;
+  border-bottom: 4px solid #f6ab23;
+  position: relative;
+  bottom: 190px;
+}
+
+.jeremy {
+  margin-bottom: 30px;
+}
+
+.jeremy,
+.julia {
+  background-color: white;
+  padding: 30px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jeremy strong,
+.julia strong {
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: roboto;
+}
+
+.jeremy p,
+.julia p {
+  font-size: 2.1rem;
+  font-weight: 400;
+  font-family: roboto;
+}
+
+.j-img {
+  width: 38%;
+  padding-right: 35px;
+}
+
+.julia-img {
+  width: 29%;
+  padding-right: 35px;
+}
+
+.form-row-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-row-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form {
+  width: 73%;
+  margin-left: 325px;
+  margin-top: 0;
+  position: relative;
+  bottom: 100px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: roboto;
+}
+
+#name {
+  margin-right: 10px;
+}
+
+textarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: #05afc1;
+  padding: 10px 45px 10px 45px;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: roboto;
 }
 
 footer {
